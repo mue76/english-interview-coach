@@ -5,7 +5,7 @@
   "plugins": [
     {
       "name": "english-interview-coach",
-      "source": "./",
+      "source": "./plugins/english-interview-coach",
       "description": "English interview practice coach for internship applicants."
     }
   ]

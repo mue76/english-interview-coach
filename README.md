@@ -9,7 +9,7 @@
 2. `mue76/english-interview-coach` 입력
 3. 목록에서 **english-interview-coach** 설치
 
-파일만 쓰려면: `skills/english-interview-coach/SKILL.md`를 내려받아 **추가** > **플러그인 업로드**로 올립니다.
+파일만 쓰려면: `plugins/english-interview-coach/skills/english-interview-coach/SKILL.md`를 내려받아 **추가** > **플러그인 업로드**로 올립니다.
 (설정 > 기능 > "클라우드에서 코드 실행"이 켜져 있어야 합니다)
 
 ## 설치 — Claude Code
@@ -23,7 +23,8 @@
 
 ## 폴더 구조
 ```
-.claude-plugin/plugin.json        플러그인 이름·설명·버전
-.claude-plugin/marketplace.json   마켓 목록 (마켓 이름: class-demo)
-skills/english-interview-coach/SKILL.md   스킬 본문
+.claude-plugin/marketplace.json                마켓 목록 (마켓 이름: class-demo)
+plugins/english-interview-coach/
+  .claude-plugin/plugin.json                   플러그인 이름·설명·버전
+  skills/english-interview-coach/SKILL.md      스킬 본문
 ```
