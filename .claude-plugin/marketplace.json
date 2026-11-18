@@ -1,0 +1,12 @@
+{
+  "name": "class-demo",
+  "owner": { "name": "class-demo" },
+  "metadata": { "description": "Class demo marketplace: English interview practice coach." },
+  "plugins": [
+    {
+      "name": "english-interview-coach",
+      "source": "./",
+      "description": "English interview practice coach for internship applicants."
+    }
+  ]
+}
